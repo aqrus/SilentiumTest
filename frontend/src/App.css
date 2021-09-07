@@ -49,9 +49,10 @@
 }
 .btn-circle {
   border-radius: 50%;
-
-  width: 200px;
-  height: 200px;
+  min-width: 145px;
+  min-height: 145px;
+  width: 15vw;
+  height: 15vw;
 }
 .btn.focus, .btn:focus, .btn:focus-visible, .btn:focus-within, .btn:hover, .btn:visited {
   outline: none;
