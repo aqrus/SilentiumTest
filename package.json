@@ -1,0 +1,25 @@
+{
+  "name": "silentiumtest",
+  "version": "1.0.0",
+  "description": "A straightforward screening test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqrus/SilentiumTest.git"
+  },
+  "author": "TruongGiaBao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aqrus/SilentiumTest/issues"
+  },
+  "homepage": "https://github.com/aqrus/SilentiumTest#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
